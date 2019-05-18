@@ -5,11 +5,11 @@ class Hash
       if value == argument
         array << key
       end
-      #hash.each do |key, value|
-      #  if value == argument
-      #    array << key
-      #    end
-      #end
+      @.each do |key, value|
+        if value == argument
+          array << key
+        end
+      end
     end
     array
   end
